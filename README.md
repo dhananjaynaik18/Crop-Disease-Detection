@@ -1,4 +1,4 @@
-# 🌾 Crop Disease Detection System (CNN)
+# 🌾 Crop Disease Detection System (CNN) 
 
 Hi there! 👋 Welcome to the repository for my Bring Your Own Project (BYOP) for my 1st-year B.Tech Computer Science Engineering coursework. 
 
