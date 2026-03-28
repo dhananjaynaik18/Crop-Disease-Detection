@@ -1,0 +1,12 @@
+time,prediction,confidence
+2026-03-28 06:45:02.289484,Potato___Early_blight,1.0
+2026-03-28 06:46:19.023508,Potato___Early_blight,1.0
+2026-03-28 06:46:40.841809,Potato___Early_blight,1.0
+2026-03-28 06:47:02.445789,Potato___Early_blight,1.0
+2026-03-28 07:09:47,Tomato Late blight,1.0
+2026-03-28 07:10:28,Potato healthy,0.7922
+2026-03-28 07:11:13,Tomato healthy,1.0
+2026-03-28 07:14:08,Tomato healthy,1.0
+2026-03-28 07:17:11,Tomato Late blight,0.9762
+2026-03-28 15:44:32,Tomato Late blight,0.9866
+2026-03-28 15:45:15,Tomato healthy,1.0
