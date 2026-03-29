@@ -39,6 +39,7 @@ history_file = "prediction_history.csv"
 def preprocess(image):
     img = np.array(image)
     img = cv2.resize(img, (128, 128))
+    img=img/255.0                    
     img = np.expand_dims(img, axis=0)
     return img
 
