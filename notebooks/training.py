@@ -104,5 +104,3 @@ plt.ylabel('Loss')
 plt.legend()
 plt.savefig("model/loss.png")
 plt.close()
-
-print("✅ Training complete. Smarter model and graphs saved.")
