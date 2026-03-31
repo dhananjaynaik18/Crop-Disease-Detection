@@ -36,7 +36,6 @@ Agriculture plays a very important role in our country, and crop health directly
 
 This project aims to build an intelligent system that can detect crop diseases using image processing and Artificial Intelligence. By simply uploading an image of a leaf, the system can predict whether the plant is healthy or affected by a disease and also suggest possible treatments.
 
-⸻
 
 ❗ 2. Problem Statement
 
@@ -48,7 +47,6 @@ In real-life situations, farmers face the following problems:
 
 These issues reduce crop productivity and increase losses.
 
-⸻
 
 💡 3. Proposed Solution / Approach
 
@@ -74,7 +72,7 @@ Using Streamlit, a user-friendly interface is created where:
 	•	Confidence score is shown
 	•	Treatment suggestions are provided
 
-⸻
+
 
 ⚙️ 4. Features of the Project
 	•	🌿 Multi-crop support (Tomato & Potato)
@@ -85,7 +83,7 @@ Using Streamlit, a user-friendly interface is created where:
 	•	🎨 Interactive UI using Streamlit
 	•	⏳ Loading animation for better experience
 
-⸻
+
 
 🧠 5. Key Design Decisions
 
@@ -96,7 +94,6 @@ While building this project, I made some important decisions:
 	•	Selected Streamlit for simple and fast UI development
 	•	Reduced dataset to fewer classes (Tomato & Potato) for better performance on my system
 
-⸻
 
 ⚠️ 6. Challenges Faced
 
@@ -109,7 +106,7 @@ Initially, I faced many errors while installing TensorFlow because of Python ver
 🔹 2. Python Version Problem
 
 I was using Python 3.13, which is not supported by TensorFlow.
-I solved this by installing Python 3.10 and creating a virtual environment.
+I solved this by installing Python 3.10.x and creating a virtual environment.
 
 🔹 3. Environment Confusion
 
@@ -124,29 +121,27 @@ Understanding how to structure folders and load images correctly was confusing a
 
 Many errors occurred during training, but debugging them helped me understand the system deeply.
 
-⸻
 
 📚 7. What I Learned
 
 This project helped me learn many important concepts:
 	•	Basics of Artificial Intelligence and Machine Learning
 	•	Working of Convolutional Neural Networks (CNN)
-	•	Importance of data preprocessing and augmentation
+	•	Importance of the data preprocessing and augmentation
 	•	Handling real-world errors and debugging
 	•	Using virtual environments (venv)
 	•	Building UI using Streamlit
 	•	Managing projects using proper folder structure
 
-⸻
 
 📊 8. Results
-	•	The model was successfully trained
+	•	The model is successfully trained
 	•	Accuracy improved over epochs
 	•	The system correctly predicts diseases with good confidence
 	•	Graphs for accuracy and loss were generated
 	•	The app successfully runs and gives predictions
 
-⸻
+
 
 🚀 9. Future Scope
 
@@ -157,7 +152,6 @@ This project can be improved further by:
 	•	Integrating with mobile applications
 	•	Adding real-time camera detection
 
-⸻
 
 📝 10. Conclusion
 
@@ -165,11 +159,10 @@ This project demonstrates how AI can be used to solve real-world agricultural pr
 
 Through this project, I not only gained technical knowledge but also learned how to solve practical problems using AI.
 
-⸻
 
 🙏 11. Acknowledgment
 
-I would like to thank my faculty and course instructors for guiding me throughout this project. This project helped me understand real-world applications of AI in a practical way.
+I would like to thank my faculty and course instructors for guiding me throughout this project. This project helped me understand real-world applications of AI in the practical way.
 🔁 13. Structural Diagram (System Flow)
 User Uploads Image
                  ↓
