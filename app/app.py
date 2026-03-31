@@ -98,14 +98,14 @@ if uploaded_file:
                 st.info(f"💡 **Treatment:** {disease_info[label]['treatment']}")
                 st.write(f"**Description:** {disease_info[label]['description']}")
 
-            # Save to history
+           
             save_history({
                 "time": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "prediction": display_name,
                 "confidence": round(float(confidence), 4)
             })
 
-# ADVANCED UI: Expandable history block
+
 st.write("---")
 with st.expander("📜 View Prediction History"):
     if os.path.exists(history_file):
