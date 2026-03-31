@@ -1,16 +1,16 @@
-# 🌾 Crop Disease Detection System (CNN) 
+#  Crop Disease Detection System (CNN) 
 
 Hi there! 👋 Welcome to the repository for my Bring Your Own Project (BYOP) for my 1st-year B.Tech Computer Science Engineering coursework. 
 
 This project is a complete end-to-end Machine Learning web application designed to help farmers and agricultural workers identify crop diseases instantly. By simply uploading a picture of plant leaf, the custom-trained Convolutional Neural Network (CNN) will diagnose  the disease provide the confidence score and suggest actionable treatments.
 
-## 🚀 Features
+##  Features
 * Custom CNN Architecture: Built from scratch using TensorFlow/Keras with Dropout layers and Data Augmentation to prevent overfitting.
 * Interactive UI: A clean, user-friendly web dashboard built with Streamlit.
 * Instant Diagnosis: Classifies leaves into categories (e.g., Potato Early Blight, Tomato Late Blight, or Healthy) and provides treatment steps.
 * Prediction History: Automatically saves a log of all previous predictions into a CSV file for tracking.
 
-## 📁 Folder Structure
+##  Folder Structure
 Here is how the project is organized:
 text
 Crop_Disease_Detection/
@@ -34,13 +34,13 @@ Crop_Disease_Detection/
 ├── requirements.txt         # List of Python libraries needed to run this
 └── README.md                # You are reading this right now!
 
-⚙️ Prerequisites
+ Prerequisites
 Before running  this project, please make sure that you have the following installed on your system:
 • Python 3.10.x (Highly recommended. Newer versions like 3.13 may cause dependency conflicts with TensorFlow).
 • Git (to clone this repository).
 • (Windows Users Only): Microsoft Visual C++ Redistributable (Required for TensorFlow's backend C++ operations).
 
-🛠️ Installation Steps
+ Installation Steps
 I highly recommend running this inside a Virtual Environment to keep the dependencies clean.
 1. Clone the repository:
 git clone <https://github.com/dhananjaynaik18>
@@ -55,7 +55,7 @@ source .venv/bin/activate
 4. Install the required libraries:
 pip install -r requirements.txt
 
-🏃‍♂️ How to Run the Project
+ How to Run the Project
 This project is split into two parts: the training script and the web app.
 Part 1: Training the Model (Optional)
 Note: I have already included the trained_model.h5 file in the repo, so you can skip this step if you just want to test the web app!
