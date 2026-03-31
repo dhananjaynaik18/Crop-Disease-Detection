@@ -1,4 +1,4 @@
-🌾 Crop Disease Detection using Deep Learning
+ Crop Disease Detection using Deep Learning
 1.Cover page:
 
 ## Project Title:  
@@ -30,14 +30,14 @@ PlantVillage Dataset (Tomato & Potato Leaves)
 Date:31 March 2026  
 
 
-📌 1. Introduction
+ 1. Introduction
 
 Agriculture plays a very important role in our country, and crop health directly affects farmers’ income and food production. Many times, farmers are not able to identify diseases in crops at an early stage, which leads to heavy losses.
 
 This project aims to build an intelligent system that can detect crop diseases using image processing and Artificial Intelligence. By simply uploading an image of a leaf, the system can predict whether the plant is healthy or affected by a disease and also suggest possible treatments.
 
 
-❗ 2. Problem Statement
+ 2. Problem Statement
 
 In real-life situations, farmers face the following problems:
 	•	Lack of knowledge about different plant diseases
@@ -48,11 +48,11 @@ In real-life situations, farmers face the following problems:
 These issues reduce crop productivity and increase losses.
 
 
-💡 3. Proposed Solution / Approach
+ 3. Proposed Solution / Approach
 
 To solve this problem, I developed a Crop Disease Detection System using Deep Learning.
 
-🔹 Approach Used:
+ Approach Used:
 	1.	Dataset Collection
 I used a plant disease dataset containing images of:
 	•	Tomato (Healthy & Late Blight)
@@ -74,18 +74,18 @@ Using Streamlit, a user-friendly interface is created where:
 
 
 
-⚙️ 4. Features of the Project
-	•	🌿 Multi-crop support (Tomato & Potato)
-	•	🧠 Deep Learning based prediction
-	•	📊 Accuracy & Loss graph visualization
-	•	💊 Treatment suggestions for diseases
-	•	📁 Prediction history saved in CSV file
-	•	🎨 Interactive UI using Streamlit
-	•	⏳ Loading animation for better experience
+ 4. Features of the Project
+	•	 Multi-crop support (Tomato & Potato)
+	•	 Deep Learning based prediction
+	•	 Accuracy & Loss graph visualization
+	•	 Treatment suggestions for diseases
+	•	 Prediction history saved in CSV file
+	•	 Interactive UI using Streamlit
+	•	 Loading animation for better experience
 
 
 
-🧠 5. Key Design Decisions
+ 5. Key Design Decisions
 
 While building this project, I made some important decisions:
 	•	Used CNN model instead of traditional ML because images require feature extraction
@@ -95,34 +95,34 @@ While building this project, I made some important decisions:
 	•	Reduced dataset to fewer classes (Tomato & Potato) for better performance on my system
 
 
-⚠️ 6. Challenges Faced
+ 6. Challenges Faced
 
 This was the most important learning part of my project.
 
-🔹 1. TensorFlow Installation Issues
+ 1. TensorFlow Installation Issues
 
 Initially, I faced many errors while installing TensorFlow because of Python version mismatch.
 
-🔹 2. Python Version Problem
+ 2. Python Version Problem
 
 I was using Python 3.13, which is not supported by TensorFlow.
 I solved this by installing Python 3.10.x and creating a virtual environment.
 
-🔹 3. Environment Confusion
+ 3. Environment Confusion
 
 There were multiple environments (ai_env, venv), which caused errors.
 Finally, I learned how to properly manage virtual environments.
 
-🔹 4. Dataset Handling
+ 4. Dataset Handling
 
 Understanding how to structure folders and load images correctly was confusing at first.
 
-🔹 5. Runtime Errors
+ 5. Runtime Errors
 
 Many errors occurred during training, but debugging them helped me understand the system deeply.
 
 
-📚 7. What I Learned
+ 7. What I Learned
 
 This project helped me learn many important concepts:
 	•	Basics of Artificial Intelligence and Machine Learning
@@ -134,7 +134,7 @@ This project helped me learn many important concepts:
 	•	Managing projects using proper folder structure
 
 
-📊 8. Results
+ 8. Results
 	•	The model is successfully trained
 	•	Accuracy improved over epochs
 	•	The system correctly predicts diseases with good confidence
@@ -143,7 +143,7 @@ This project helped me learn many important concepts:
 
 
 
-🚀 9. Future Scope
+ 9. Future Scope
 
 This project can be improved further by:
 	•	Adding more crops (Corn, Apple, etc.)
@@ -153,17 +153,17 @@ This project can be improved further by:
 	•	Adding real-time camera detection
 
 
-📝 10. Conclusion
+ 10. Conclusion
 
 This project demonstrates how AI can be used to solve real-world agricultural problems. It provides a simple, fast, and effective way to detect crop diseases and guide users with proper treatment.
 
 Through this project, I not only gained technical knowledge but also learned how to solve practical problems using AI.
 
 
-🙏 11. Acknowledgment
+ 11. Acknowledgment
 
 I would like to thank my faculty and course instructors for guiding me throughout this project. This project helped me understand real-world applications of AI in the practical way.
-🔁 13. Structural Diagram (System Flow)
+ 13. Structural Diagram (System Flow)
 User Uploads Image
                  ↓
         Image Preprocessing
