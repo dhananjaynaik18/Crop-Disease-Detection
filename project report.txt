@@ -1,4 +1,34 @@
 🌾 Crop Disease Detection using Deep Learning
+1.Cover page:
+
+## Project Title:  
+Crop Disease Detection using Deep Learning
+
+## Submitted By:  
+Dhananjay Naik
+
+## Course / Branch:  
+Computer Science Engineering (CSE)
+
+## Project Type:  
+Artificial Intelligence / Machine Learning Project  
+
+## Programming Language:  
+Python 3.10  
+
+## Tools & Technologies Used:  
+- Visual Studio Code (VS Code)  
+- TensorFlow / Keras  
+- Streamlit  
+- OpenCV  
+- NumPy & Pandas  
+- Matplotlib  
+
+Dataset Used:  
+PlantVillage Dataset (Tomato & Potato Leaves)
+
+Date:31 March 2026  
+
 
 📌 1. Introduction
 
